@@ -1,12 +1,12 @@
 For Oracle 8.x env with neovim, OhMyZsh and colorls
 
-# Win_env
+\# Win_env
 Windows env setup
 
 Install WSL and Virtual Tech in Windows Apps
 
 Install NerdFont Hack font
-## https://github.com/ryanoasis/nerd-fonts/releases/download/v2.3.3/Hack.zip
+\## https://github.com/ryanoasis/nerd-fonts/releases/download/v2.3.3/Hack.zip
 ## Install the Windows compatible fonts <right-click>:Install
 ## Set default Terminal font to Hack NFM
 
