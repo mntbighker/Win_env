@@ -6,8 +6,8 @@ if ! [ -f $HOME/Win_env/.tmux.conf ]; then
 fi
 
 if ! [ -f /usr/bin/nvim ]; then
-  sudo dnf -y config-manager --set-enabled ol9_appstream
-  sudo dnf -y install oracle-epel-release-el9
+  sudo dnf -y config-manager --set-enabled ol8_appstream
+  sudo dnf -y install oracle-epel-release-el8
   sudo dnf -y group install "Development Tools"
   sudo dnf -y install neovim python39 ruby ruby-devel rubygems luarocks zsh npm nodejs cargo cmake tmux wget
 fi
