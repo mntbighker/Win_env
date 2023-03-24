@@ -11,8 +11,8 @@ if ! [ -f /usr/bin/nvim ]; then
   sudo dnf -y module enable ruby:2.6
   sudo dnf -y module enable nodejs:18
   sudo dnf -y remove ruby*
-  sudo dnf -y config-manager --set-enabled ol8_appstream
-  sudo dnf -y install oracle-epel-release-el8
+  sudo dnf -y config-manager --set-enabled ol8_appstream # Oracle
+  sudo dnf -y install oracle-epel-release-el8 # Oracle
   sudo dnf -y group install "Development Tools"
   sudo dnf -y install neovim python39 ruby ruby-devel rubygems luarocks zsh npm nodejs cargo cmake tmux wget
 fi
